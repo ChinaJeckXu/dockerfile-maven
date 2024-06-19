@@ -5,7 +5,7 @@
   <parent>
     <artifactId>dockerfile-maven</artifactId>
     <groupId>io.github.chinajeckxu</groupId>
-    <version>1.4.14-SNAPSHOT</version>
+    <version>1.4.14</version>
   </parent>
 
   <artifactId>dockerfile-maven-extension</artifactId>

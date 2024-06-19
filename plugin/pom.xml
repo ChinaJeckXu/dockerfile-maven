@@ -5,7 +5,7 @@
   <parent>
     <groupId>io.github.chinajeckxu</groupId>
     <artifactId>dockerfile-maven</artifactId>
-    <version>1.4.14-SNAPSHOT</version>
+    <version>1.4.14</version>
   </parent>
 
   <artifactId>dockerfile-maven-plugin</artifactId>
@@ -58,7 +58,7 @@
     <dependency>
       <groupId>io.github.chinajeckxu</groupId>
       <artifactId>dockerfile-maven-extension</artifactId>
-      <version>1.4.14-SNAPSHOT</version>
+      <version>1.4.14</version>
     </dependency>
 
     <dependency>
