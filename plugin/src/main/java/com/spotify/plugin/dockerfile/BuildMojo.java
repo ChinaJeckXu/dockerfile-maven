@@ -38,6 +38,8 @@ import java.util.Map;
 import java.util.regex.Pattern;
 import javax.annotation.Nonnull;
 import javax.annotation.Nullable;
+
+import org.apache.commons.io.FilenameUtils;
 import org.apache.maven.plugin.MojoExecutionException;
 import org.apache.maven.plugin.MojoFailureException;
 import org.apache.maven.plugin.logging.Log;
@@ -179,8 +181,8 @@ public class BuildMojo extends AbstractDockerMojo {
 
     final ArrayList<DockerClient.BuildParam> buildParameters = new ArrayList<>();
     if (dockerfile != null) {
-      buildParameters.add(DockerClient.BuildParam.dockerfile(
-          contextDirectory.relativize(dockerfile)));
+      buildParameters.add(new DockerClient.BuildParam("dockerfile",
+              FilenameUtils.separatorsToUnix(contextDirectory.relativize(dockerfile).toString())));
     }
 
     final LoggingProgressHandler progressHandler = new LoggingProgressHandler(log, verbose);

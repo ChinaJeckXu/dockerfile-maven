@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <groupId>com.spotify</groupId>
+    <groupId>io.github.chinajeckxu</groupId>
     <artifactId>dockerfile-maven</artifactId>
     <version>1.4.14-SNAPSHOT</version>
   </parent>
@@ -56,7 +56,7 @@
       <version>23.6.1-jre</version>
     </dependency>
     <dependency>
-      <groupId>com.spotify</groupId>
+      <groupId>io.github.chinajeckxu</groupId>
       <artifactId>dockerfile-maven-extension</artifactId>
       <version>1.4.14-SNAPSHOT</version>
     </dependency>

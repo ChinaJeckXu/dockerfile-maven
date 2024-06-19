@@ -8,6 +8,7 @@
     <version>6</version>
   </parent>
 
+  <groupId>io.github.chinajeckxu</groupId>
   <artifactId>dockerfile-maven</artifactId>
   <version>1.4.14-SNAPSHOT</version>
   <packaging>pom</packaging>

@@ -4,7 +4,7 @@
 
   <parent>
     <artifactId>dockerfile-maven</artifactId>
-    <groupId>com.spotify</groupId>
+    <groupId>io.github.chinajeckxu</groupId>
     <version>1.4.14-SNAPSHOT</version>
   </parent>
 
